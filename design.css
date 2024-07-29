@@ -1,0 +1,347 @@
+body{padding:0;
+margin:0;
+background-color: aqua;}
+.margine{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    height:60px;
+    width:100%;
+    margin:0;
+    padding:0;
+    background: linear-gradient(to right blue ,orange);
+    background-color: chocolate;
+}
+.navbar ul{
+    display:flex;
+}
+.navbar ul li{
+    margin:20px;
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+}
+.right{
+    margin-left: 55%;
+    display: flex;
+}
+.anchor{
+    text-decoration: none;
+    
+}
+a:hover{
+    color:red
+}
+#aboutus{
+    height: 40%;
+    width: 40%;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 40px;
+    /* border: 2px solid black; */
+}
+#aboutus pre{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social-links {
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.social-links img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 1rem;
+
+}
+/* .social-logo{
+    border-radius: 0.5rem;
+    display: flex;
+} */
+.buttons .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.buttons .btn:hover {
+    background-color: #0056b3;
+}
+.image{
+    height: 40%;
+    width:30%;
+    opacity: 0.6;
+    float: right;
+    position: absolute;
+    margin-left: 44%;
+    margin-top: 50px;
+}
+.maintain{
+    display: inline;
+}
+/* .skill-part{
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+    position:absolute;
+    border: 2px solid black;
+} */
+.image2{
+    height: auto;
+    width:100%;
+    display: flex;
+    /* opacity: 0.6; */
+    /* float: right; */
+    position: relative;
+    /* margin-left: %; */
+    margin-top: 450px; 
+    /* margin-left: 30px; */
+    margin-bottom: 30px;
+    padding: 10px;
+    /* border:2px solid black; */
+}
+.image2 img{
+    height: 30%;
+    width: 40%;
+    opacity: 0.7;
+    padding: 10px;
+}
+#skills{
+    /* float:left; */
+    /* margin-left: 50%; */
+    margin-top: 30px;
+    margin-left:30px
+    /* border:2px solid black; */
+}
+.image3{
+    height: auto;
+    width:100%;
+    display: flex;
+    /* opacity: 0.6; */
+    /* float: right; */
+    position: relative;
+    /* margin-left: %; */
+    /* margin-top: 450px;  */
+    /* margin-left: 30px; */
+    margin-bottom: 70px;
+    padding: 10px;
+    /* border:2px solid black; */
+}
+
+.image3 img{
+    height: 30%;
+    width: 40%;
+    opacity: 0.7;
+    padding: 10px;
+}
+.efficiency-progress{
+    height: auto;
+    width: 45%;
+    /* border:2px solid black; */
+    padding: 10px;
+}
+.efficiency-progress h1{
+    margin-left:30%;
+}
+.progress1{
+    height:20px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 0.7rem;
+}
+
+.para{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+.progress-color{
+    height:20px;
+    width: 70%;
+    background-color: #007bff;
+    border-radius: 0.7rem;
+    opacity: 0.6;
+    animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.progress-color1{
+    height:20px;
+    width: 30%;
+    background-color: #007bff;
+    border-radius: 0.7rem;
+    opacity: 0.6;
+    animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.progress-color2{
+    height:20px;
+    width: 40%;
+    background-color: #007bff;
+    border-radius: 0.7rem;
+    opacity: 0.6;
+    animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+#skills1{
+    /* float:left; */
+    /* margin-left: 50%; */
+    margin-top: 30px;
+    margin-left:40px;
+    /* border:2px solid black; */
+    /* justify-content: center; */
+    /* border-radius:  0.5; */
+    /* height: 100%;
+    width: 100%; */
+    /* border-radius: 50%; */
+    box-shadow:#ffa600;
+    max-height: 80%;
+    max-width:  60%;
+
+    /* ba */
+}
+@keyframes abhisek {
+    0%   {transform: scale(0.9);}
+    25%  {transform: scale(1);}
+    50%  {transform: scale(1);}
+    75%  {transform: scale(1);}
+    100% {transform: scale(0);}    
+}
+#skills1 img{
+    height: 100%;
+    width: 70%;
+    border-radius: 50%;
+    margin-left: 50px;
+    /* box-shadow: 10px 10px 10px 20px red; */
+    /* border: blur; */
+    animation-name: abhisek;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    
+}
+
+.blog{
+    height: auto;
+    width:100%;
+    position: relative;
+    display: flex;
+    margin: 10px;
+
+}
+.blog1{
+    height: auto;
+    width:50%;
+    border: 2px sharp black;
+    padding: 10px;
+    margin: 10px;
+    box-shadow:5px 5px 20px gray;
+    font-family: Arial, Helvetica, sans-serif ;
+    /* box-shadow:-5px 5px 10px 1px gray; */
+    background-color: white;
+    border-radius: 0.5rem;
+
+
+}
+.talks{
+    height: 50%;
+    width:40%;
+    border:1px sharp black;
+    position:relative;
+    left:25%;
+    bottom: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 20px 2px gray;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    background-image: linear-gradient(180deg,blue,white);
+    border-radius: 0.5rem;
+    word-wrap:break-word;
+}
+.talks h4{
+    text-align: center;
+    margin-top: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant:inherit;
+}
+
+
+.contact-section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding: 20px;
+    /* max-width: 800px; */
+    width: 100%;
+}
+
+.contact-content {
+    flex: 2;
+    padding: 20px;
+}
+
+.contact-content h2 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.contact-content p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.contact-content strong {
+    color: #000;
+}
+
+.contact-content .location {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-content .open-for-opportunities {
+    font-weight: bold;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 50px;
+    height: 50px;
+}
+
+.contact-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.contact-image img {
+    border-radius: 50%;
+    width: 180px;
+    height: 200px;
+}
+
+footer{
+    background-color: gray;
+    height: 70px;
+    
+}
+
